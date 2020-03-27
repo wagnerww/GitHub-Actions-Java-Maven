@@ -1,4 +1,4 @@
-name: GitHub-Acons CI PRD
+name: GitHub-Actions Example-PRD
 
 on:
   push:
