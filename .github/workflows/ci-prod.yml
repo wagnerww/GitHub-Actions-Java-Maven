@@ -1,4 +1,4 @@
-name: GitHub-Acons CI PROD
+name: GitHub-Acons CI PRD
 
 on:
   push:
@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v1     
       with:
         name: GitHub_Actions-prd
-        path: staging
+        path: production
