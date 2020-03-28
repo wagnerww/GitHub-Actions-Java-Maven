@@ -1,7 +1,7 @@
-name: CI FOR DEV
+name: GitHub-Actions Example-DEV
 
 on:
-  pull_request:
+  push:
     branches: [ dev ]
 
 jobs:
