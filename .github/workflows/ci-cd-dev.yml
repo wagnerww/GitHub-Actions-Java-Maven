@@ -37,5 +37,5 @@ jobs:
       - name: Build and push
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-          HEROKU_APP_NAME: github-actions-example
+          HEROKU_APP_NAME: ppads-github-actions-example
         run: heroku plugins:install java && heroku create --no-remote && heroku deploy:jar staging/githubactions-0.0.1-SNAPSHOT.jar --app github-actions-example
